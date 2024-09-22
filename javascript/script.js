@@ -237,20 +237,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Darsdagi misollar
 // Boolean- 1
 // let numer = Math.floor(prompt("Bironta son kiriting: "));
 // if (numer > 0) {
@@ -289,5 +276,46 @@
 // }
 
 
+// Boolean- 5
+// let number1 = Math.floor(prompt("A sonni kiriting: "));
+// let number2 = Math.floor(prompt("B sonni kiriting: "));
+// if ((number1 % 2 === 0 && number2 % 2 === 0) || (number1 % 2 !== 0 && number2 % 2 !== 0)) {
+//     console.log("A va B sonlarining har ikkalasi ham yoki toq son yoki juft son.");
+// } else {
+//     console.log("A va B sonlarining har ikkalasi ham toq yoki juft emas.");
+// }
 
 
+//  Boolean- 6
+// let number1 = Math.floor(prompt("A sonni kiriting: "));
+// let number2 = Math.floor(prompt("B sonni kiriting: "));
+// let number3 = Math.floor(prompt("C sonni kiriting: "));
+// if (number1 > 0 || number2 > 0 || number3 > 0) {
+//     console.log("A, B, C sonlarning hech bo'lmaganda bittasi musbat.");
+// } else {
+//     console.log("A, B, C sonlarning hech bo'lmaganda bittasi musbat emas.");
+// }
+
+
+// Boolean- 7
+// let number = Math.floor(prompt("uch xonali son kiriting: "));
+// let yuzlarXonasi = Math.floor(number / 100);
+// let onlarXonasi = Math.floor((number % 100) / 10);
+// let birlarXonasi =  number % 10;
+// if (yuzlarXonasi !== onlarXonasi && yuzlarXonasi !== birlarXonasi && onlarXonasi !== birlarXonasi) {
+//     console.log("Ushbu sonning barcha raqamlari har xil.");
+// } else {
+//     console.log("Ushbu sonning barcha raqamlari bir xil emas.");
+// }
+
+
+
+// Boolean- 8
+// let number1 = Math.floor(prompt("A sonni kiriting: "));
+// let number2 = Math.floor(prompt("B sonni kiriting: "));
+// let number3 = Math.floor(prompt("C sonni kiriting: "));
+// if (number1 === number2 || number1 === number3 || number2 === number3) {
+//     console.log("Berilgan uchta butun sonlarning hech bo'lmaganda 2 tasi bir-biriga teng.");
+// } else {
+//     console.log("Berilgan uchta butun sonlarning hech bo'lmaganda 2 tasi teng emas.");
+// }
