@@ -70,7 +70,13 @@
 
 
 // 10-misol
-
+// let A = Math.floor(prompt("A sonni kiriting: "));
+// let B = Math.floor(prompt("B sonni kiriting: "));
+// let C = Math.floor(prompt("C sonni kiriting: "));
+// let term1 = Math.abs(A / B - B / C);
+// let term2 = Math.sqrt(4 * A + C);
+// let Y = term1 + term2;
+// console.log("Y =", Y);
 
 
 
